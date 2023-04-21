@@ -1,0 +1,24 @@
+/*----------- HEADER --------------*/
+header, nav, main {
+    max-width: 1240px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+nav ul li a {
+padding: .2rem 1rem;
+border-radius: 10px;
+margin: .5rem 0;
+}//end anchor
+/*----------- MAIN --------------*/
+main{
+ 
+    /*----COLUMNS ----*/
+    @for $i from 0 through 12 {
+        $w:calc(($i / 12) * 100%);
+        .large-#{$i} {flex-basis: $w;}
+        } //end loop
+
+
+}
+/*----------- FOOTER --------------*/
