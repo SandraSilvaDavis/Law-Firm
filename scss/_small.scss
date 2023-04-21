@@ -154,6 +154,30 @@ main {
     border-radius:7px;
     text-align: center;
 }
+.tifq {
+    display: block;
+    text-align: left;
+}
+.tifq section{
+    display: block;
+    background-color:rgb(241, 239, 232);
+    font-size: 1.5rem;
+    color:#060a1b;
+    padding:0.5rem;
+}
+.tifq p{
+    background-color:rgb(241, 239, 232);
+    color:#060a1b;
+}
+.tifq a {
+    display: block;
+    background-color:#bf9b30;
+    color: #fff;
+    padding:.5rem 0;
+    margin: 1rem;
+    border-radius:7px;
+    text-align: center;
+}
 // end main
 
 
