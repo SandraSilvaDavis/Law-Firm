@@ -22,7 +22,7 @@ header {
     align-items: center;
 	padding: .5rem 2vw;
     div#phone{display:none;}
-    background-color: #f9fdff;
+    background-color: rgb(241, 239, 232);
 	h1 {
         font-size: 1.6rem;
         font-weight: $lightWeight;
@@ -61,14 +61,6 @@ nav {
     ul li.active a {background-color: lighten($primaryColor, 45%);}
 
 } // end nav
-
-
-
-
-
-
-
-
 
 
 
@@ -124,8 +116,12 @@ main {
      background-color:$accent;
      color:white;
      margin: .5rem;
-     p{ font-size:200%;padding: 2rem 0;}
+     p{ font-size:200%;padding: 2rem 0;
+    color:whitesmoke;}
+    text-align: center;
+
  }
+ 
  .blog {
     display: block;
     text-align: left;
@@ -154,22 +150,22 @@ main {
     border-radius:7px;
     text-align: center;
 }
-.tif {
+.tipf {
     display: block;
-    text-align: left;
+    text-align:left;
 }
-.tif section{
+.tipf section {
     display: block;
     background-color:rgb(241, 239, 232);
     font-size: 1.5rem;
     color:#060a1b;
     padding:0.5rem;
 }
-.tif p{
+.tipf p {
     background-color:rgb(241, 239, 232);
     color:#060a1b;
 }
-.tif a {
+.tipf a {
     display: block;
     background-color:#bf9b30;
     color: #fff;

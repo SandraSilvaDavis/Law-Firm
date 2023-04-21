@@ -130,7 +130,7 @@ header {
   grid-template-columns: 51px auto 44px;
   align-items: center;
   padding: 0.5rem 2vw;
-  background-color: #f9fdff;
+  background-color: rgb(241, 239, 232);
 }
 header div#phone {
   display: none;
@@ -280,10 +280,12 @@ main .card a {
   background-color: #060a1b;
   color: white;
   margin: 0.5rem;
+  text-align: center;
 }
 .jumbotron p {
   font-size: 200%;
   padding: 2rem 0;
+  color: whitesmoke;
 }
 
 .blog {
@@ -318,12 +320,12 @@ main .card a {
   text-align: center;
 }
 
-.tif {
+.tipf {
   display: block;
   text-align: left;
 }
 
-.tif section {
+.tipf section {
   display: block;
   background-color: rgb(241, 239, 232);
   font-size: 1.5rem;
@@ -331,12 +333,12 @@ main .card a {
   padding: 0.5rem;
 }
 
-.tif p {
+.tipf p {
   background-color: rgb(241, 239, 232);
   color: #060a1b;
 }
 
-.tif a {
+.tipf a {
   display: block;
   background-color: #bf9b30;
   color: #fff;
